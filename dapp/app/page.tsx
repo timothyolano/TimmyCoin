@@ -107,8 +107,6 @@ return (
       onClick={() => {connectWallet();}}
       className="p-3 bg-red-600 text-white rounded"
       style={{transition: 'background-color 0.3s ease'}}
-      onMouseEnter={(e) => {e.target.style.backgroundColor = '#ff6347'}}
-      onMouseLeave={(e) => {e.target.style.backgroundColor = '#ba181b'}}
     >
       {walletKey != "" ? walletKey : " Connect wallet"}
     </button>
@@ -133,8 +131,6 @@ return (
     onClick={() => {mintCoin();}}
     className="p-3 bg-red-600 text-white rounded"
     style={{transition: 'background-color 0.3s ease'}}
-    onMouseEnter={(e) => {e.target.style.backgroundColor = '#ff6347'}}
-    onMouseLeave={(e) => {e.target.style.backgroundColor = '#ba181b'}}
   >
     Mint Token
   </button>
@@ -158,8 +154,6 @@ return (
         onClick={() => {stakeCoin();}}
         className="p-3 bg-red-600 text-white rounded"
         style={{transition: 'background-color 0.3s ease',}}
-        onMouseEnter={(e) => {e.target.style.backgroundColor = '#ff6347'}}
-        onMouseLeave={(e) => {e.target.style.backgroundColor = '#ba181b'}}
       >
         Stake Token
       </button>
@@ -171,8 +165,6 @@ return (
         onClick={() => {withdrawCoin();}}
         className="p-3 bg-red-600 text-white rounded"
         style={{transition: 'background-color 0.3s ease'}}
-        onMouseEnter={(e) => {e.target.style.backgroundColor = '#ff6347'}}
-        onMouseLeave={(e) => {e.target.style.backgroundColor = '#ba181b'}}
       >
         Withdraw Token
       </button> 
